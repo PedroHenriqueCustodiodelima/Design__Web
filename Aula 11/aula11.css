@@ -1,0 +1,10 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("gemini-skincare.png"), url(mv_bg.png);
+    color: gray;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left, center;
+    background-attachment: fixed, scroll;
+    /* background-size: contain => largura 
+       background-size: cover => altura   */
+}

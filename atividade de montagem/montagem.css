@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("fundo2.jpg");
+}
+img.logo{
+    margin-bottom: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+picture{
+    text-align: center;
+    margin-bottom: 1em;
+    display: block;
+}
+ul li{ 
+    text-align: center;
+    margin-bottom: 1em;
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p{
+    text-align: center;
+    line-height: 20px;
+}
+hr{
+    border-top: 1px solid red;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 100px;    
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tpt-br">
+    <head>
+        <title> Aula de tabela</title>
+        <meta charset="utf-8" /> 
+        <style>
+
+            label{
+                background-color: antiquewhite;
+                display: inline-block;
+                width: 5em;
+            }
+        
+        </style>
+    </head>
+
+    <body> 
+
+       <form action="resposta.html" >
+           <div>
+               <label for="nome">Nome*: </label>
+               <input type="text" placeholder="Nome" id="nome" required/>
+           </div>
+           <div>
+                <label for="email">E-mail*: </label>
+                <input type="email" placeholder="E-mail" id="email" required/>
+            </div>
+            <div>
+                <label for="tel">Telefone*: </label>
+                <input type="tel" placeholder="Telefone" id="tel" required/>
+            </div>
+            <div>
+                <label for="senha">Senha*: </label>
+                <input type="password" placeholder="Senha" id="senha" required/>
+            </div>
+
+           <input type="submit" />
+
+       </form>
+
+    </body>
+
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+li a{ /* essa áncora só vai fucionar se tiver dentro da tag de li*/
+    text-decoration: none;
+    color: darkblue;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+li a:hover{ /* essa áncora só vai fucionar se tiver dentro da tag de li*/
+    background-color: cornflowerblue;
+}

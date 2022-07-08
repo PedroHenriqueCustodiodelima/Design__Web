@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tpt-br">
+    <head>
+        <title> Aula de tabela</title>
+        <meta charset="utf-8" /> 
+        <style>
+            table{
+                background-color: cadetblue;
+                border-collapse: collapse;
+                border: 1px solid black;
+                color: white;
+            }
+
+            tbody tr:nth-child(odd){  /* even para pare, odd para o impares */                   
+                background-color: rgb(41, 93, 95);
+            }
+            table td, th{
+                padding: 1em;
+                border: 1px solid black;
+            
+            }            
+        </style>      
+    </head>
+    <body> 
+        <table> 
+            <thead>
+                <tr>
+                    <th>Aluno</th> <th> N1</th> <th> N2</th>
+                </tr>
+            </thead>
+            <tbody>     
+                <tr>
+                    <td> Thiago</td> <td> 100</td> <td> 100 </td>
+                </tr>
+                <tr>
+                    <td> Pedro</td> <td> 100</td><td>100</td>
+                    <!-- <td>Pedro</td> <td>100</td> <td rowspan="3">20</td>-->
+                </tr>
+                <tr>
+                    <td> Renan</td> <td> 100</td> <td> 100</td>
+                </tr>
+                <tr>
+                    <td> Rebeca</td> <td>100</td> <td>100</td>
+                </tr>
+                <tr>
+                    <td> Rafael</td> <td> 100</td> <td> 100</td>
+                </tr>
+                <tr>
+                    <td> Matheus </td> <td> 100</td> <td> 100</td>
+                </tr>
+                <tr>
+                    <td> Pedro Vitor</td> <td>100</td> <td>100</td>
+                </tr>
+                <tr> 
+                    <!-- <td> Maria</td> <td colspan="2">100</td>   -->
+                    <td> Maria</td> <td>100</td> <td>100</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> 3 Alunos</td><td> 100</td><td>100</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

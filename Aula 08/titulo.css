@@ -1,0 +1,17 @@
+body{
+    background-color: whitesmoke;
+}
+ul{
+    list-style-type: square;
+    background-color: aqua;
+}
+ol{
+    list-style-type: square;
+}
+li{
+    list-style-type: disc;
+    list-style-position: outside;
+    background-color: aquamarine;
+    margin-bottom: 1em;
+    list-style-image: url(seta-direita.png);    
+}

@@ -1,9 +1,11 @@
 body{
     background-color: antiquewhite;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("fundo03.webp");
+
 }
 ol{
-    font-size: 40px;
+    font-size: 30px;
     font-family: Bodoni;
     text-align: center;
     padding: 60px;
@@ -11,6 +13,7 @@ ol{
 li{
     list-style-type: none;
     display: inline-block;
+
 }
 li a{ 
     text-decoration: none;
@@ -18,19 +21,21 @@ li a{
     border-bottom: 1px solid rgb(0, 0, 0);
     padding: 10px;
 }
-li a:hover{ 
-    background-color: rgb(226, 206, 142);
-}
+
 img.logo{
     margin-bottom: 1em;
     display: block;
     margin-left: auto;
     margin-right: auto
 }
+li a:hover{ 
+    background-color: rgb(226, 206, 142);
+}
 picture{
     padding: 10px;
     text-align: center;    
     display: block;
+    
 }
 ul li{ 
     text-align: center;
@@ -51,7 +56,7 @@ p{
 hr{
     border-top: 1px solid red;
 }
-h3{
+address{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     line-height: 100px;    

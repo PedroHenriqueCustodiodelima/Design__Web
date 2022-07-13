@@ -9,7 +9,9 @@ ol{
     font-family: Bodoni;
     text-align: center;
     padding: 60px;
+    padding: 2em;
 }
+
 li{
     list-style-type: none;
     display: inline-block;
@@ -32,10 +34,9 @@ li a:hover{
     background-color: rgb(226, 206, 142);
 }
 picture{
-    padding: 10px;
     text-align: center;    
     display: block;
-    
+    border: 4px solid orange;
 }
 ul{ 
     text-align: center;

@@ -1,0 +1,18 @@
+*{
+    text-align: center;
+}
+img.logo{
+    margin-bottom: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("fundo03.webp");
+
+}
+div{
+    padding: 60px;
+}

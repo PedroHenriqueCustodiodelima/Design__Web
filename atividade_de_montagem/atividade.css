@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Cabeçario */
+
+
+main section div{
+    margin: 2em;
+    padding: 2em;
+    box-shadow: 0 0 0.5em #d2d2d2;
+}
+header{
+    background: rgb(1,13,11);
+    background: linear-gradient(90deg, rgba(1,13,11,1) 0%, rgba(4,165,199,1) 100%);
+    padding: 2em;
+}
+h1{color: white;}
+
+nav{
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+header a{
+    text-decoration: none;
+    padding: 1em;
+    color: whitesmoke;
+}
+header li{
+    text-align: right;
+    display: inline-block;
+}
+
+
+/* informações */
+
+
+main{
+    margin: 0 auto;
+    width: 100em;
+    display: flex;
+}
+section{
+    padding: 2em;
+}
+
+main section{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+main section div{
+    border: 1px solid white;
+    padding: 2px;
+    box-shadow: 0 0 1em #d2d2d2;
+}
+section div{
+    width: 450px;
+}
+
+div li{
+    padding: 4px;
+}
+
+h4 p{
+    color: black;
+}
+
+p{
+    color: black;
+    text-align: left;
+}
+
+
+/* Calendario */
+
+
+aside div p{
+    margin-left: 30px;
+    padding: 3px;
+    margin-top: 3px;
+
+}
+aside h1{
+    margin-top: 60px;
+}
+aside a{
+    margin-left: 200px;
+    background-color: #dad6d6;
+    padding: 3px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+span{
+    margin-left: 200px;
+    background-color: #dad6d6;
+    padding: 3px;
+    font-size: 25px;
+    color: rgb(20, 20, 109);
+}
+aside{
+    padding: 2px;
+    margin-top: 63px;
+    max-height: 772px;
+    box-shadow: 0 0 0.5em #d2d2d2;
+}
+div ol{
+    text-align: center;
+    padding: 2px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.dia{
+    grid-column-start: 5;
+}
+.dia_da_semana{
+    background-color: #20B2AA;
+    font-weight: bolder;
+}
+h2{
+    margin-top: 20px;
+    padding: 3px;
+    text-align: center;
+}
+aside div ol{
+    padding: 30px;
+}
+aside form p{
+    margin-left: 20px;
+    padding: 2px;
+}
+aside form label{
+    padding: 2px;
+    margin-left: 20px;
+}
+
+
+
+/* rodapé */
+
+
+footer{
+    padding: 2em;
+    background-color: #b1d5d5;
+}
+footer li{
+    display: inline-block;
+}

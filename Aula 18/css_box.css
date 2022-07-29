@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: #EC6842;
+    padding: 2em;
+    color: white;
+}
+header a{
+    color: white;
+}
+header li{
+    display: inline-block;
+}
+nav ol{
+    padding: 10px;
+}
+main{
+    margin: 0 auto;
+    max-width: 70em;
+}
+main section{
+    margin: 3em 0;
+}
+footer{
+    padding: 2em;
+    background-color: #b1d5d5;
+}
+footer li{
+    display: inline-block;
+}
+section{
+    padding: 2em;
+}
+section.palestrantes{
+    background-color: #f1f1f1;
+}
+section.Organizadores{
+    background-color: #e1e1e1;
+}
+section.Notícias{
+    background-color: #f4f4f4;
+
+}
+
+/*p.box-p{ */
+   /* background-color: aqua; */
+   /* display: inline-block; */
+   /* width: 200px; */  /*   não fuciona para display inline      */
+/*height: 200px;*/ /* também não fuciona para display inline */
+/*} */
+
+/*p.box-p b{ */
+   /* background-color: blue; */
+   /* display: block; */
+   /* color: white;*/
+   /* width: 200px;  */ /* não fuciona para display inline        */
+   /* height: 200px; */ /* também não fuciona para display inline */
+/*} */
+
+section p{
+    background-color: aqua;
+    display: inline-block;
+    width: 250px;   /*   não fuciona para display inline      */
+    height: 550px; /* também não fuciona para display inline */
+    border-radius: 2em;
+    padding: 3em;
+    box-shadow: 0 0 5px #d2d2d2; /* primeiro 0 é o deslocamento horizontal, segundo 0 é o deslocamento vertical, 5px é o desfoque, cor*/
+    border: 3px solid white; /* espessura, tipo da borda, cor */
+    margin: 1em;
+    box-sizing: border-box;
+}

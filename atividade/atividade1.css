@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Cabeçario */
+
+
+main section div{
+    margin: 2em;
+    padding: 2em;
+    box-shadow: 0 0 0.5em #d2d2d2;
+}
+header{
+    background: rgb(1,13,11);
+    background: linear-gradient(90deg, rgba(1,13,11,1) 0%, rgb(11, 73, 85) 100%);
+    padding: 2em;
+}
+h1{color: white;}
+
+nav{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+header a{
+    text-decoration: none;
+    padding: 1em;
+    color: whitesmoke;
+}
+header li{
+    text-align: right;
+    display: inline-block;
+}
+
+/* informações */
+
+
+/* rodapé */
+
+
+footer{
+    padding: 2em;
+    background: linear-gradient(90deg, rgba(1,13,11,1) 0%, rgb(11, 73, 85) 100%);
+}
+footer li{
+    display: inline-block;
+}

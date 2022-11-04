@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>transição</title>
+    <style>
+        h1 a{
+            text-decoration: none;
+            transition-duration: 400ms;
+            transition-timing-function: ease;
+            transition-property: padding-right;
+
+        }
+        h1 a:hover{
+            background-image: url(jesus.png);
+            padding-right: 1em;
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+        nav li a{
+            padding: 1em;
+            margin: 1em;
+            background-color:#00008b;
+            display: block;
+            border-radius: 0.5em;
+            width: 7em;
+            text-align: center;
+            color: white;
+            transition-timing-function: ease;
+            transition-duration: 200ms;
+            transition-property: background-position;
+        }
+        nav li{
+            position: relative;
+        }
+        nav li ol{
+            position: absolute;
+            visibility: hidden;
+        }
+        nav a:hover{
+            background-image: linear-gradient(45deg, #00008b, #b8b3e8, #00008b);
+            background-position: 20em 0;
+            background-repeat: no-repeat;
+            background-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="#">EXPOTEC</a></h1>
+    <nav>
+        <ol>
+            <li><a>ítem</a>
+            <ol>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+            </ol>
+        </li>
+        <li><a>ítem</a>
+            <ol>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+            </ol>
+        </li>
+        <li><a>ítem</a>
+            <ol>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+            </ol>
+        </li>
+        <li><a>ítem</a>
+            <ol>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+            </ol>
+        </li>
+        <li><a>ítem</a>
+            <ol>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+              <li><a href="#">subítem</a></li>
+            </ol>
+        </li>
+        </ol>
+    </nav>
+</body>
+</html>

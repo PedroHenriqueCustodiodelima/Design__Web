@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 80em;
+    display: flex;
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+main section{
+    padding: 1em;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 1em;
+    box-sizing: border-box;
+    flex: 1;
+}
+@media screen and (max-width: 992px){
+    main section{
+        flex-basis: 40%;
+        background-color: aqua;
+    }
+
+}
+@media screen and (max-width:480px){
+    main section{
+        background-color: green;
+
+    }
+}
+footer{
+    text-align: center;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+div#modal{
+    padding: 1em;
+    background-color: aqua;
+}

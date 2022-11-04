@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Cabeçalho */
+
+header div{
+    padding: 2em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 1em black;
+    background-color:rgb(0,97,60);
+}
+header input{
+    text-align: center;
+    border: none;
+    background-color: white;
+}
+header ol a:hover{
+    border-bottom: 1px solid white;
+    background-color: rgb(135,10,40);
+}
+header a{
+    padding: 1em;
+    text-decoration: none;
+    color: whitesmoke;
+}
+h1 a{
+    text-decoration: none;
+}
+nav ol{
+    display: flex;
+    text-align: center;
+}
+header nav{
+    padding: 1em;
+}
+main section{
+    background-color: white;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+section{
+    text-align: center;
+    background-color: #9b9b9b;
+    border: none;
+}
+address{
+    padding: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+section ul{
+    text-align: center;
+    display: flex;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+h3{
+    margin: 1em;
+}
+hr{
+    margin: 1em;
+}
+h4 a{
+    border-radius: 2em;
+    background-color: rgb(0,97,60);
+    color: white;
+    text-decoration: none;
+    padding: 0.4em;
+}
+section h1{
+    margin: 1em;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 1em black;
+    background: rgb(0,97,60);
+    padding: 1em;
+}
+footer a{
+    padding: 1em;
+}
+footer p{
+    color: white;
+}
+@media screen and (max-width:480px){
+    header{
+        box-shadow: 0 0 1em black;
+        background-color:rgb(0,97,60);
+    }
+    header a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .escudo{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+    div h1 a img{
+        width: 1em;
+        position: absolute;
+        top: 35px;
+        left: 350px;
+    }
+    header nav ol{
+        position: absolute;
+        top: 40px;
+        left: 230px;
+        padding: 0em;
+        display: inline-block;
+        text-align: left;
+    }
+    header nav li{
+        font-size: 0.8em;
+        padding: 0.1em;
+    }
+    header h1 img{
+        width: 1.4em;
+    }  
+    main section{
+        background-color: white;
+        box-sizing: border-box;
+    }
+    section{
+        text-align: center;
+        background-color: #9b9b9b;
+        border: none;
+    }
+    address{
+        padding: 1em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+    section ul{
+        text-align: center;
+        display: flex;
+    }
+    h1 a{
+        color: white;
+        text-decoration: none;
+    }
+    h3{
+        margin: 1em;
+    }
+    hr{
+        margin: 1em;
+    }
+    
+    h4 a{
+        border-radius: 2em;
+        background-color: rgb(0,97,60);
+        color: white;
+        text-decoration: none;
+        padding: 0.4em;
+    }
+    footer p{
+        font-size: 0.8em;
+        color: white;
+    }
+    footer nav ol{
+        margin: 0em;
+    }
+    footer img{
+        width: 1.5em;
+    }
+}

@@ -2,7 +2,8 @@ main{
     display: grid;
     grid-template-areas:
     "a b c"
-    "a d d";
+    "a b d"
+    "e e e";
 }
 main section{
     border: 1px solid black;

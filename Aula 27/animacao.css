@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    display: flex;
+}
+main div{
+    margin: 0 auto;
+    animation-name: emoji;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes emoji{
+    0%{
+        transform: rotate(360deg);
+        transform: scale3d(9);
+        margin-left: -300px;
+    }
+    25%{
+        transform: rotate(360deg);
+        transform: scale(7);
+    }
+    50%{
+        transform: rotate(360deg);;
+        transform: scale(5);
+    }
+    75%{
+        transform: rotate(360deg);
+        transform: scale(3);
+    }
+    100%{
+        transform: rotate(360deg);
+        transform: scale(1);
+    }
+}
+.a{
+    margin: 0 auto;
+    animation-name: emoji;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes p-ex{
+    0%{
+        transform: scale3d(0);
+    }
+    25%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0);
+    }
+    75%{
+        transform: scale(3);
+    }
+    100%{
+        transform: scale(8);
+    }
+}
